@@ -11,6 +11,7 @@
 		A2F47C9425BF51FC008CDD74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F47C9325BF51FC008CDD74 /* ContentView.swift */; };
 		A2F47C9625BF51FD008CDD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F47C9525BF51FD008CDD74 /* Assets.xcassets */; };
 		A2F47C9925BF51FD008CDD74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F47C9825BF51FD008CDD74 /* Preview Assets.xcassets */; };
+		A2F47CA225BF53BD008CDD74 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F47CA125BF53BD008CDD74 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A2F47C9525BF51FD008CDD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F47C9825BF51FD008CDD74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2F47C9A25BF51FD008CDD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F47CA125BF53BD008CDD74 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F47C9125BF51FC008CDD74 /* Assignment_NotebookApp.swift */,
+				A2F47CA125BF53BD008CDD74 /* AssignmentList.swift */,
 				A2F47C9325BF51FC008CDD74 /* ContentView.swift */,
 				A2F47C9525BF51FD008CDD74 /* Assets.xcassets */,
 				A2F47C9A25BF51FD008CDD74 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F47CA225BF53BD008CDD74 /* AssignmentList.swift in Sources */,
 				A2F47C9425BF51FC008CDD74 /* ContentView.swift in Sources */,
 				A2F47C9225BF51FC008CDD74 /* Assignment_NotebookApp.swift in Sources */,
 			);
