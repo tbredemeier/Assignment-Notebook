@@ -43,6 +43,8 @@ struct ContentView: View {
     }
 }
 
+
+// Note: your preview will look different if still using Xcode 14
 #Preview {
     ContentView()
 }
