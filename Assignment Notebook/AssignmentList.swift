@@ -9,8 +9,21 @@ import Foundation
 
 @Observable
 class AssignmentList {
-    var items =
-    [AssignmentItem(course: "Algebra", description: "Linear Equation", dueDate: Date()),
-     AssignmentItem(course: "History", description: "Civil War Paper", dueDate: Date()),
-     AssignmentItem(course: "Science", description: "Atomic Bomb Lab", dueDate: Date())]
+    var items : [AssignmentItem] {
+        didSet {
+            if let encodedData = try? JSONEncoder().encode(items) {
+                UserDefaults.standard.set(encodedData, forKey: "data")
+            }
+        }
+    }
+    
+    init() {
+        if let data = UserDefaults.standard.data(forKey: "data") {
+            if let decodedData = try? JSONDecoder().decode([AssignmentItem].self, from: data) {
+                items = decodedData
+                return
+            }
+        }
+        items = []
+    }
 }

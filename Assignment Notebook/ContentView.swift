@@ -52,7 +52,7 @@ struct ContentView: View {
     ContentView()
 }
 
-struct AssignmentItem: Identifiable {
+struct AssignmentItem: Identifiable, Codable {
     var id = UUID()
     var course = String()
     var description = String()
